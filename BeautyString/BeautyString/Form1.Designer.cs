@@ -59,8 +59,9 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.groupBox1);
-            this.splitContainer1.Size = new System.Drawing.Size(1034, 450);
-            this.splitContainer1.SplitterDistance = 387;
+            this.splitContainer1.Size = new System.Drawing.Size(964, 450);
+            this.splitContainer1.SplitterDistance = 482;
+            this.splitContainer1.SplitterWidth = 10;
             this.splitContainer1.TabIndex = 0;
             // 
             // groupBox2
@@ -69,18 +70,19 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(387, 450);
+            this.groupBox2.Size = new System.Drawing.Size(482, 450);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.groupBox2.Text = "Before";
             // 
             // beforeTextBox
             // 
-            this.beforeTextBox.Location = new System.Drawing.Point(39, 135);
+            this.beforeTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.beforeTextBox.Location = new System.Drawing.Point(3, 19);
             this.beforeTextBox.Multiline = true;
             this.beforeTextBox.Name = "beforeTextBox";
             this.beforeTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.beforeTextBox.Size = new System.Drawing.Size(331, 188);
+            this.beforeTextBox.Size = new System.Drawing.Size(476, 428);
             this.beforeTextBox.TabIndex = 0;
             // 
             // groupBox1
@@ -89,18 +91,19 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(643, 450);
+            this.groupBox1.Size = new System.Drawing.Size(472, 450);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "After";
             // 
             // afterTextBox
             // 
-            this.afterTextBox.Location = new System.Drawing.Point(129, 135);
+            this.afterTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.afterTextBox.Location = new System.Drawing.Point(3, 19);
             this.afterTextBox.Multiline = true;
             this.afterTextBox.Name = "afterTextBox";
             this.afterTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.afterTextBox.Size = new System.Drawing.Size(412, 193);
+            this.afterTextBox.Size = new System.Drawing.Size(466, 428);
             this.afterTextBox.TabIndex = 0;
             // 
             // panel1
